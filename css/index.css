@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+header .header-logo {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px auto;
+}
+
+header .header-logo {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px auto;
+}
+
+header .menu {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .menu li {
+    display: inline;
+}
+
+header .menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header .menu li a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 500px) {
+    header nav {
+        display: flex;
+    }
+    header .header-logo {
+        margin: 0 2%;
+    }
+    header .menu {
+        flex: 1;
+        align-items: center;
+        justify-content: left;
+    }
+    header .menu li {
+        margin: 0 2%;
+    }
+    header .menu li:last-child {
+        margin: 0 2% 0 auto;
+    }
+}
+
+header .banner {
+    min-height: 400px;
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .banner h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 5rem;
+    text-shadow: 1px 1px 1px #1C6EA4;
+    color: white;
+}
+
+@media (min-width: 500px) {
+    header .banner h1 {
+        font-size: 8rem;
+        text-shadow: 2px 2px 2px #1C6EA4;
+    }    
+}
+
+header .banner .button-container {
+    display: flex;
+    justify-content: center;
+}
+
